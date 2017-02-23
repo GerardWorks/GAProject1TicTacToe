@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Gerard Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 id="gameName">Tic Tac </h1>
+      <img src="images/narutologo.png" alt="Toe">
+    </header>
+    <div class="wrapper">
+      <div class="ui">
+        <div class="player1 uiSize">Player 1: </div>
+        <div class="rounds uiSize">Round: </div>
+        <div class="player2 uiSize">Player 2: </div>
+        <div class="buttonHolder">
+          <button type="button" class="gridButton" id="grid3">3x3 Grid</button>
+          <button type="button" class="gridButton" id="grid4">4x4 Grid</button>
+          <button type="button" class="gridButton" id="grid5">5x5 Grid</button>
+          <button type="button" class="gridButton" id="grid6">6x6 Grid</button>
+          <button type="button" class="resetButton">Game Reset</button>
+          <p id="winnerText">Player 1 Start</p>
+        </div>
+      </div>
+      <div class="gameArea">
+      </div>
+    </div>
+    <div class='divider'></div>
+    <footer>
+        <p>Created By: Gerard Ho</p>
+        <p>A General Assembly student project</p>
+        <p>Credits to Masashi Kishimoto, Shueisha publishing company and Madman Entertainment</p>
+      </footer>
+      <script
+      src="https://code.jquery.com/jquery-3.1.1.js"
+      integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+      crossorigin="anonymous"></script>
+      <script src="ticTacToeCheck.js"></script>
+      <script src="resetGame.js"></script>
+      <script src="tictactoe2.js"></script>
+
+  </body>
+</html>
