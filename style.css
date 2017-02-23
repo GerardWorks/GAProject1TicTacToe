@@ -17,12 +17,11 @@ header h1{
   width: 20%;
   color: white;
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 4em;
+  font-size: 4.5em;
 }
 header img{
   display: inline-block;
   width: 20%;
-
 }
 div.ui{
   width: 35%;
@@ -84,6 +83,7 @@ div.first{
   right: 0;
   padding: 0;
   margin: 0;
+  font-size: 0;
 }
 div.second{
   display: table;
@@ -212,3 +212,46 @@ div.buttonHolder{
 }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 @keyframes spin1 { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+
+@media (min-width: 780px)and (max-width: 1600px) {
+  header h1{
+    font-size: 2.5em;
+  }
+  .gridButton {
+    font-size:15px;
+  	padding:6px 10px;
+  }
+  .resetButton {
+    font-size:15px;
+  	padding:13px 20px;
+  }
+  #winnerText{
+    font-size: 1.2em;
+    color: white;
+  }
+  header img{
+    display: inline-block;
+    width: 20%;
+  }
+}
+@media(max-width: 780px){
+  header h1{
+    font-size: 1.7em;
+  }
+  .gridButton {
+    font-size:10px;
+  	padding:6px 10px;
+  }
+  .resetButton {
+    font-size:15px;
+  	padding:13px 20px;
+  }
+  #winnerText{
+    font-size: 1em;
+    color: white;
+  }
+  header img{
+    display: inline-block;
+    width: 30%;
+  }
+}
