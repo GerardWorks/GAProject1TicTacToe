@@ -47,7 +47,7 @@ I found it enjoyable to build the game logic more than fiddling with html and cs
 ---
 
 ### To Do List
-- I will like to clean up my code and learn more how I can further improve how the game is generated onto the DOM and how the computer reads the players input.
+- ~~I will like to clean up my code and learn more how I can further improve how the game is generated onto the DOM and how the computer reads the players input.~~ Completed
 - Player scores are not very obvious, needs some tweaking.
 - Making the code more readable.
 
@@ -62,3 +62,4 @@ I found it enjoyable to build the game logic more than fiddling with html and cs
 - Create custom GIFs for the game to make it more visually engaging.
 - Look into adding sound effects.
 - Game login with facebook account. To play against your friends
+- ~~Larger grid sizes will have different rules to win, instead of requiring to win an entire row or column, 3 or 4 in a row will win them the game.~~ Completed
