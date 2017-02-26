@@ -77,6 +77,8 @@ var gameWinner = function(symbol){
     $('div.rounds').text('Round: '+ game.gameRounds);
     $('#winnerText').text('PLAYER 2 WINS')
   }else if(symbol === ' '){
+    game.gameRounds += 1;
+    $('div.rounds').text('Round: '+ game.gameRounds);
     $('#winnerText').text('DRAW!!! Press Game Reset')
   }
 }
@@ -96,7 +98,6 @@ var arrayMaker = function(length,range1,range2){
     }
     return wholeArray;
 }
-
 
 var arrayWinnerCheck = function(symbol, array){
   var arraySize = array.length;
@@ -155,8 +156,8 @@ var checkForWinner = function(symbol){
     var array4 = arrayMaker(5,1,1);
     mainArrayCheck = [array1, array2, array3, array4];
     arrayWinnerCheck(symbol, mainArrayCheck);
-  }else if(game.count === 0){
-    $('#winnerText').text('DRAW!!! Press Game Reset');
   }
-  return false;
+  if(game.count === 0){
+    gameWinner(' ');
+  }
 }

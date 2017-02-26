@@ -67,7 +67,6 @@ var appendToDom = function(array){
   return;
 }
 
-
 var gameReset = function(gridSize){
   $('.gameButton').remove();
   game.gameArray = [];
