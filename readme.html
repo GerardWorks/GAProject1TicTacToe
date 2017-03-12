@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1 id="tic-tac-naruto">Tic-Tac-Naruto</h1>
+
+<p><a href="https://gerardworks.github.io/GAProject1TicTacToe/">Click here to see the game</a></p>
+
+<figure>
+<img src="images/gamescreenshot.png" alt="alt text" title="Logo Title Text 1" />
+<figcaption>alt text</figcaption>
+</figure>
+
+<p>Technologies used:
+HTML, CSS, Javascript, jQuery</p>
+
+<h3 id="approach">Approach</h3>
+
+<p>I knew that a regular tic-tac-toe game consisted of a 3x3 tile and required 2 players. What I wanted from my game is to look and feel dynamic and originally planned to use html canvas to draw my game. However that is another set of skills I&#8217;m yet to learn and there is a short time constraint which made me rethink I needed to build a working game first and &#8216;beautify&#8217; it later.</p>
+
+<p>For me games should give some sort of challenge to the user, entertain and want to make others also play it. So I decided I wouldn&#8217;t use fonts for my naughts and crosses, instead opting for images instead which I can use CSS to animate. Also I wanted my game to be scalable, so instead of gamers playing on a 3x3 tile they can choose 4x4, 5x5 and 6x6 tiles. I knew I needed to build an array where it can check every row and every column including diagonals for the same element, independent of its size. Players engaged in a 4x4 grid and higher will almost never experience a win unless the number of inline game elements are reduced.</p>
+
+<h3 id="buildingthegame">Building the game</h3>
+
+<p>Building the game board I used jQuery to select the DOM elements and used methods to create new DOM elements and add CSS properties so that it will fit onto the game area I had assigned.
+I looped through creating new div elements using a for loop with the limit of maximum game size.</p>
+
+<p>I had originally started the game logic with simple if and else statements, but found it is not scalable at all as I will need to write every condition for a win. Instead I used a javascript method to check if the player has won which is .every() to check each line of the 2-D array including columns. The diagonals are checked through the same method but first a 1-D array is created in the format to suit the .every() method.</p>
+
+<p>To notify the players if a winner has won, the game would stop and players can no longer add in additional game pieces and a text would appear at the top of the game board stating which player has won.</p>
+
+<p>I found it enjoyable to build the game logic more than fiddling with html and css even though it is much easier and took less time to do. I can see that the method I took to build the game tiles, it is quite possible to build other games similar to this.</p>
+
+<hr />
+
+<h3 id="whatihavelearnt">What I have learnt</h3>
+
+<ul>
+<li>I learnt how to use data-values from html and use that in my javascript code.</li>
+<li>Using CSS to animate images in an infinite loop</li>
+<li>Use of the .every() method for an array.</li>
+<li>learn how to generate data-values like an array row and column values to the DOM.</li>
+<li>Naming functions and variables make it much easier to understand what the code is doing.</li>
+<li>Clearing floats by adding in an empty div with css settings to clear : both.</li>
+<li>I have learnt I could have built my code using binary code methods.</li>
+</ul>
+
+<hr />
+
+<h3 id="unsolvedproblems">Unsolved Problems</h3>
+
+<ul>
+<li>Making the screen responsive so it can fit on mobile devices.</li>
+</ul>
+
+<hr />
+
+<h3 id="todolist">To Do List</h3>
+
+<ul>
+<li>~~I will like to clean up my code and learn more how I can further improve how the game is generated onto the DOM and how the computer reads the players input.~~ Completed</li>
+<li>Player scores are not very obvious, needs some tweaking.</li>
+<li>Making the code more readable.</li>
+</ul>
+
+<hr />
+
+<h3 id="futurefeatures">Future Features</h3>
+
+<ul>
+<li>I would like to add in character selection and have different game animations.</li>
+<li>A banner that overlays the game when a game condition has been met.</li>
+<li>Animated characters on either side of the game board that move when a player clicks a tile on the gameboard to simulate interaction.</li>
+<li>Make the game responsive for different screen sizes.</li>
+<li>Create custom GIFs for the game to make it more visually engaging.</li>
+<li>Look into adding sound effects.</li>
+<li>Game login with facebook account. To play against your friends</li>
+<li>~~Larger grid sizes will have different rules to win, instead of requiring to win an entire row or column, 3 or 4 in a row will win them the game.~~ Completed</li>
+</ul>
+
+</body>
+</html>
