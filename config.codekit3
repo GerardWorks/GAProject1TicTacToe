@@ -9,6 +9,26 @@
 	],
 "creatorBuild": "25568",
 "files": {
+	"\/css\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/images\/background.png": {
 		"ft": 32768,
 		"iS": 670035,
@@ -135,57 +155,47 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/resetGame.js": {
+	"\/scripts\/resetGame.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/resetGame-min.js",
+		"oAP": "\/scripts\/resetGame-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/tictactoe2.js": {
+	"\/scripts\/tictactoe2.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/tictactoe2-min.js",
+		"oAP": "\/scripts\/tictactoe2-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/tictactoe3.js": {
+	"\/scripts\/tictactoe3.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/tictactoe3-min.js",
+		"oAP": "\/scripts\/tictactoe3-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/ticTacToeCheck.js": {
+	"\/scripts\/ticTacToeCheck.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/ticTacToeCheck-min.js",
+		"oAP": "\/scripts\/ticTacToeCheck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/ticTacToeCheck2.js": {
+	"\/scripts\/ticTacToeCheck2.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/ticTacToeCheck2-min.js",
+		"oAP": "\/scripts\/ticTacToeCheck2-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -977,7 +987,7 @@
 			},
 		"no-extra-parens": {
 			"active": 1,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none'}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -1297,11 +1307,11 @@
 			},
 		"no-unused-vars": {
 			"active": 1,
-			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
 			"active": 0,
-			"optionString": "{'functions': true, 'classes': true}"
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
 		"no-useless-call": {
 			"active": 0,
