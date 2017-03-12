@@ -1,6 +1,6 @@
 # Tic-Tac-Naruto
 
-[Click here to see the game](https://gzerka.github.io/GAProject1TicTacToe/)
+[Click here to see the game](https://gerardworks.github.io/GAProject1TicTacToe/)
 
 
 ![alt text](images/gamescreenshot.png "Logo Title Text 1")

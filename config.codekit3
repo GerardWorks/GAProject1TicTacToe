@@ -227,6 +227,15 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/scripts\/resetGame.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/scripts\/resetGame-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/scripts\/superceded\/resetGame-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -299,11 +308,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/scripts\/tictactoe2.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/scripts\/tictactoe2-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/scripts\/tictactoe3.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/scripts\/tictactoe3-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/scripts\/ticTacToeCheck.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/scripts\/ticTacToeCheck-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1104,7 +1131,7 @@
 			},
 		"no-extra-parens": {
 			"active": 1,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none'}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -1424,11 +1451,11 @@
 			},
 		"no-unused-vars": {
 			"active": 1,
-			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
 			"active": 0,
-			"optionString": "{'functions': true, 'classes': true}"
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
 		"no-useless-call": {
 			"active": 0,
